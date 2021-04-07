@@ -17,3 +17,17 @@
     justify-content: space-between;
     width: 300px;
 }
+
+.todoList, .addTodo {
+    margin: 50px 100px;
+}
+
+.addTodo div {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-top: 10px;
+}
+.addTodo div input {
+    margin-bottom: 10px;
+}

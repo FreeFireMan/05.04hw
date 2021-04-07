@@ -2,6 +2,8 @@ import React from 'react';
 import {Switch, BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 import Header from "./components/Header";
+import TodoList from "./components/TodoList";
+import AddTodo from "./components/AddTodo";
 
 function App() {
   return (
@@ -11,8 +13,8 @@ function App() {
           <Header />
 
           <Switch>
-            <Route path={'/'} exact></Route>
-            <Route path={'/create-todo'}></Route>
+            <Route path={'/'} exact> <TodoList /> </Route>
+            <Route path={'/create-todo'}> <AddTodo /> </Route>
           </Switch>
         </Router>
       </main>
