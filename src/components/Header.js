@@ -1,13 +1,12 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import Style from './Style.css';
+import {NavLink} from 'react-router-dom';
 
 function Header() {
     return (
         <header className={'header'}>
             <nav>
-                <Link to={'/'}>Todo List</Link>
-                <Link to={'/create-todo'}>Add Todo</Link>
+                <NavLink to={'/'} exact>Todo List</NavLink>
+                <NavLink to={'/create-todo'} exact>Add Todo</NavLink>
             </nav>
 
             <div>

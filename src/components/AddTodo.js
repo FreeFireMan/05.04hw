@@ -1,6 +1,5 @@
 import React, {useContext, useState} from 'react';
 import {TodoContext} from '../context/Contexts';
-import Style from './Style.css';
 
 function AddTodo() {
     const [todoValues, setTodoValues] = useState({

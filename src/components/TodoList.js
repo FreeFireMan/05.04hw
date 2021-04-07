@@ -1,6 +1,5 @@
 import React from 'react';
 import {TodoContext} from '../context/Contexts';
-import Style from './Style.css';
 
 function TodoList() {
     return (
